@@ -1,0 +1,7 @@
+<!-->PROPERTY BINDING
+<img [src]="itemVazio"/>
+<img [src]="itemVazio"/>
+<img [src]="itemVazio"/>
+<-->
+
+<img *ngFor="let coracao of coracoes" [src]="coracao.exibeCoracao()" />
